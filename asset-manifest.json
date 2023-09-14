@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sathiskumar30/flipkart.git/static/css/main.50547d00.css",
+    "main.js": "/sathiskumar30/flipkart.git/static/js/main.d3063e28.js",
+    "static/media/img1.jpg": "/sathiskumar30/flipkart.git/static/media/img1.46a6df31251eed9795a2.jpg",
+    "static/media/img2.jpg": "/sathiskumar30/flipkart.git/static/media/img2.750c5cee1c2e60722845.jpg",
+    "static/media/img3.jpg": "/sathiskumar30/flipkart.git/static/media/img3.ba7c29231d7c59bd74b8.jpg",
+    "static/media/fashion.png": "/sathiskumar30/flipkart.git/static/media/fashion.022d99e4dfab6c3e4cae.png",
+    "static/media/grocery.png": "/sathiskumar30/flipkart.git/static/media/grocery.b5d9020eb7977e000537.png",
+    "static/media/homeappliances.png": "/sathiskumar30/flipkart.git/static/media/homeappliances.edbc6228fc4733ede07d.png",
+    "static/media/twowheeler.png": "/sathiskumar30/flipkart.git/static/media/twowheeler.09ea9f834a5d2d29aca6.png",
+    "static/media/electronics.png": "/sathiskumar30/flipkart.git/static/media/electronics.10704dd63d0489651576.png",
+    "static/media/mobile.png": "/sathiskumar30/flipkart.git/static/media/mobile.dcddf236868e8083c06c.png",
+    "static/media/furnitures.jpg": "/sathiskumar30/flipkart.git/static/media/furnitures.c7f10ff65ded9a102234.jpg",
+    "index.html": "/sathiskumar30/flipkart.git/index.html",
+    "main.50547d00.css.map": "/sathiskumar30/flipkart.git/static/css/main.50547d00.css.map",
+    "main.d3063e28.js.map": "/sathiskumar30/flipkart.git/static/js/main.d3063e28.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50547d00.css",
+    "static/js/main.d3063e28.js"
+  ]
+}
