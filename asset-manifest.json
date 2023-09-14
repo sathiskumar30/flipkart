@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sathiskumar30/flipkart.git/static/css/main.50547d00.css",
-    "main.js": "/sathiskumar30/flipkart.git/static/js/main.d3063e28.js",
+    "main.js": "/sathiskumar30/flipkart.git/static/js/main.7f807959.js",
     "static/media/img1.jpg": "/sathiskumar30/flipkart.git/static/media/img1.46a6df31251eed9795a2.jpg",
     "static/media/img2.jpg": "/sathiskumar30/flipkart.git/static/media/img2.750c5cee1c2e60722845.jpg",
     "static/media/img3.jpg": "/sathiskumar30/flipkart.git/static/media/img3.ba7c29231d7c59bd74b8.jpg",
@@ -14,10 +14,10 @@
     "static/media/furnitures.jpg": "/sathiskumar30/flipkart.git/static/media/furnitures.c7f10ff65ded9a102234.jpg",
     "index.html": "/sathiskumar30/flipkart.git/index.html",
     "main.50547d00.css.map": "/sathiskumar30/flipkart.git/static/css/main.50547d00.css.map",
-    "main.d3063e28.js.map": "/sathiskumar30/flipkart.git/static/js/main.d3063e28.js.map"
+    "main.7f807959.js.map": "/sathiskumar30/flipkart.git/static/js/main.7f807959.js.map"
   },
   "entrypoints": [
     "static/css/main.50547d00.css",
-    "static/js/main.d3063e28.js"
+    "static/js/main.7f807959.js"
   ]
 }
