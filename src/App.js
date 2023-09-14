@@ -38,7 +38,7 @@ function App() {
       <BrowserRouter>
         <div className="nav">
           <div className="icon">
-            <Link to="/" id="homenav" ><h3 >Flipkart</h3></Link>
+            <Link to="/flipkart" id="homenav" ><h3 >Flipkart</h3></Link>
             
           </div>
           <div className="search_box">
@@ -69,13 +69,13 @@ function App() {
           </div>
         </div>
         <Routes>
-          <Route path="/" element={<Index datas={datas} addcart={addcart}/>}/>
-          <Route path="cart" element={<Cartflip datas={datas} removecart={removecart}/>} />
-          <Route path="account" element={<Account/>}/>
+          <Route path="/flipkart" element={<Index datas={datas} addcart={addcart}/>}/>
+          <Route path="/cart" element={<Cartflip datas={datas} removecart={removecart}/>} />
+          <Route path="/account" element={<Account/>}/>
           <Route path="/register" element={<Register />}/>
           <Route path="/Signin" element={<Account />} />
-          <Route path="buy/:id" element={<Buy contents={contents}/>}/>
-          <Route path="contact"/>
+          <Route path="/buy/:id" element={<Buy contents={contents}/>}/>
+          <Route path="/contact"/>
         </Routes>
       </BrowserRouter>
       <div className="last_part">

@@ -90,11 +90,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-
-function contact(){
-     return(
-         <h2>Contact us</h2>
-     )
-
-}
