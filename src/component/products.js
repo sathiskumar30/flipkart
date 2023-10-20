@@ -18,7 +18,7 @@ export function Products(props) {
                         <div className='productSales'>{props.totalSales} units sold</div>
                     </div>
                     <div className="buynow_btn">
-                        <Link to={`buy/${props.id}`}> 
+                        <Link to={`/${props.id}`}> 
                         <button type='Submit' className="btn" >Buy now</button>
                         </Link>
   

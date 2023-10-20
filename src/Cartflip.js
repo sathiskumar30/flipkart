@@ -8,22 +8,23 @@ import Cartitem from './Cartitem'
 const Cartflip = ({datas,removecart}) => {
 
   const [numCart,setnumCart] = useState(0)
-  useEffect(function(){
-    let tem=0;
-    datas.map(item=>item.Checked&&tem++)
-    setnumCart(tem)
+  useEffect(
+    function(){
+        let tem=0;
+        datas.map(item=>item.Checked&&tem++)
+        setnumCart(tem)
   },[removecart])
   
 
   return (
     <div className="cartpage">
-      {numCart?<><h3> Your Cart Items</h3>
+      {numCart?<>
+             <div className="">
+                 <h3> Your Cart Items</h3>
+                
+               </div>
             <div className="header">
-                    
-              
-                  <div className="cross">
-                     <FaTimes/>
-                 </div>
+                  
                  {datas.map(data => data.Checked&&(
                  <Cartitem 
                         id={data.id}
@@ -33,10 +34,10 @@ const Cartflip = ({datas,removecart}) => {
                         removecart={removecart}/>
                  ))}
              </div>
-               <div className="checout_button">
-               <button type='sumbit'>
+               <div className="">
+                      <button type='sumbit' className='checout_button'>
                         Checkout
-                </button>
+                      </button>
                 </div>
               </>:<>
                   <h2>Cart is empty</h2>

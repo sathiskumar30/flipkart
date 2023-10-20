@@ -5,9 +5,9 @@ const Buy = ({contents}) => {
 
   const {id} = useParams();
     let datas = contents[id-1];
-    console.log("data :",datas);
   return (
-    <div className="buynow">
+    <div id="description"
+    className="buynow">
       <h1>Welcome to Buy Now Space</h1>
       <div className="buypage">
 
@@ -16,9 +16,8 @@ const Buy = ({contents}) => {
           <img src={datas.image} />
         </div>
         <div className="two">
-          <h2>name:{datas.name}</h2>
-          <h4>price:{datas.price}</h4>
-          <p>Ratings:{datas.rating}</p>
+          <h4>Name of the product: {datas.name}</h4>
+          <h4>Price of Product:{datas.price}</h4>
           <p>Total Price={datas.price}</p>
         </div>
         <title>Descrption</title>

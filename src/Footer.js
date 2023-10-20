@@ -9,7 +9,7 @@ const Footer = () => {
 
       <div className="fabout">
         <ul id="fabout">
-       <li> <h4>ABOUT</h4></li>
+          <li><h4>ABOUT</h4></li>
           <li>Contact Us</li>
           <li> About Us</li>
           <li> Careers</li>
@@ -18,8 +18,8 @@ const Footer = () => {
           <li>Flipkart</li>
           <li>Wholesale</li>
           <li>Cleartrip</li>
-           <li>Corporate</li> 
-           <li>Information</li>
+          <li>Corporate</li> 
+          <li>Information</li>
         </ul>
       </div>
       <div className="fohelp">

@@ -31,7 +31,6 @@ function App() {
       )
     );
   }
-  console.log(contents);
 
   return (
     <div className="App">
@@ -58,8 +57,8 @@ function App() {
               <li>My Account</li>
               </Link>
               <li>Become as Seller</li>
-              <li>More</li>
-              <li>
+              <li ><a className="more" href="#Desc">More</a></li>
+              <li className="cartflex">
                 <Link to="/cart" id="cartuicon">
                   <FaCartPlus className="cart_btn" />
                   Cart
@@ -74,7 +73,7 @@ function App() {
           <Route path="/account" element={<Account/>}/>
           <Route path="/register" element={<Register />}/>
           <Route path="/Signin" element={<Account />} />
-          <Route path="/buy/:id" element={<Buy contents={contents}/>}/>
+          <Route path="/:id" element={<Buy contents={contents}/>}/>
           <Route path="/contact"/>
         </Routes>
       </BrowserRouter>
